@@ -134,17 +134,6 @@ div > div {
 }
 
 
-@font-face {
-font-family: "rubik";
-src: url(../fonts/rubik.ttf);
-}
-
-@font-face {
-font-family: "anton";
-src: url(../fonts/anton.ttf);
-}
-
- 
 .container {
   display: block;
   position: relative;
@@ -282,4 +271,14 @@ src: url(../fonts/anton.ttf);
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+@font-face {
+font-family: "rubik";
+src: url(../fonts/rubik.ttf);
+}
+
+@font-face {
+font-family: "anton";
+src: url(../fonts/anton.ttf);
 }
