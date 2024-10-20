@@ -136,12 +136,12 @@ div > div {
 
 @font-face {
 font-family: "rubik";
-src: url(fonts/rubik.ttf);
+src: url(../fonts/rubik.ttf);
 }
 
 @font-face {
 font-family: "anton";
-src: url(fonts/anton.ttf);
+src: url(../fonts/anton.ttf);
 }
 
  
