@@ -1,0 +1,64 @@
+img {
+	width: 100%;
+	border-spacing: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h1{
+	font-family: "anton";
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #1566a5;
+}
+
+h2 {
+	font-family: "rubik";
+	font-size: 10px;
+	line-height: 0.5;
+	margin:0;
+	margin-top: 0px;
+	color: #1566a5;
+}
+
+p{
+	font-family: "rubik";
+	font-size: 15px;
+	line-height: 3;
+	margin:0;
+	margin-top: 0px;
+	text-decoration: underline;
+	color: #1566a5;
+}
+
+div {
+	padding-top: 50px;
+	border-radius: 10px;
+	display: flex;
+	width: 100%;
+	gap: 20px;
+}
+
+div > div {
+	flex: 1;
+	display: block;
+	padding: 20px;
+	background-color: #e6f2fc;
+	border:1px solid #1566a5 ;
+	text-align: left;
+}
+
+@font-face {
+font-family: "rubik";
+src: url(../fonts/rubik.ttf);
+}
+
+@font-face {
+font-family: "anton";
+src: url(../fonts/anton.ttf);
+}
