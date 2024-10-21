@@ -1,0 +1,215 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #003366;
+}
+
+strong {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+p, ul, li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header img {
+    height: 70px;
+}
+
+
+.top-nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Banner Colour Bar Image */
+.banner-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* Main Layout */
+.main-container {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Column */
+
+.left-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.stu-view-section {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.stu-view-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stu-view-section button {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.stu-view-section button:hover {
+    background-color: #0055aa;
+}
+
+.stu-view-section a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.stu-view-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.stu-view-section ul li {
+    padding: 5px 0;
+}
+
+/* Service alert section - maybe solid red box so individuals pay more attention to it*/
+
+.alert-section {
+    background-color: #ffcccc;
+    padding: 15px;
+    border: 1px solid #d9534f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.alert-section h2 {
+    color: #d9534f;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+/* Latest updates section headers, lists, clicks */
+
+.latest-updates-section {
+    background-color: #e9f1fb;
+    padding: 15px;
+    border: 1px solid #d9e5f3;
+    border-radius: 10px;
+}
+
+.latest-updates-section h3 {
+    color: #003366;
+    font-size: 18px;
+}
+
+.latest-updates-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.latest-updates-section ul li {
+    padding: 10px 0;
+}
+
+.latest-updates-section a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.latest-updates-section a:hover {
+    text-decoration: underline;
+}
+
+/* Right Column */
+
+.right-column {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+}
+
+.right-column h1 {
+    font-size: 24px;
+}
+
+.right-column h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+
+/* Important dates grid chart - main addition to the page. Would be good to post a semester/ the next 4 months of dates at a time  */
+
+.important-dates {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+
+
+.date, .details {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; 
+}
+
+.date {
+    font-weight: bold;
+
+}
+
+.important-dates .date,
+.important-dates .details {
+    align-self: center;
+}
